@@ -1,0 +1,59 @@
+/* Style for label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Add the desired text color */
+  font-size: 20px;
+}
+
+/* Style for input[type="date"] */
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333; /* Add the desired text color */
+  background-color: #fff; /* Add the desired background color */
+  text-align: center;
+}
+
+/* Optional: Adjust the width of the input fields */
+#dob,
+#ageDate {
+  width: 200px; /* You can adjust the width as needed */
+}
+
+/* Optional: Add some spacing between elements */
+br {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+th, td {
+  border: 2px solid #6495ED;
+  padding: 10px;
+  text-align: center;
+}
